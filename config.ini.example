@@ -1,0 +1,20 @@
+[Trello]
+;trello token and key
+;register key and token https://trello.com/app-key
+key = key
+token = token
+board = board_id
+;how many users in trello board
+list_name = user1, user2
+
+[Line]
+;register token https://notify-bot.line.me/my/
+line_token = your token
+
+[Url]
+;Trello
+get_border = https://api.trello.com/1/boards/
+add_list = https://api.trello.com/1/lists
+add_card = https://api.trello.com/1/cards
+;Line
+notify = https://notify-api.line.me/api/notify
